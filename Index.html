@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <!-- custom css file-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+    <script src="https://kit.fontawesome.com/28bfa74dba.js" 
+    crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <section>
+
+    <nav>
+    <a href = "#" class = "logo">MLH</a>
+
+    <ul>
+    <li><a href="#about-container" class="active">About Me</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#contact-me">Contact Me</a></li>
+
+    </ul>
+    <div class="toggle"></div>
+
+    </nav>
+    <div class = "text-container"> 
+      <p>Hello,</p>
+      <p>I'M MICHAEL</p>
+      <p>I am an Electronics and<br> Computer Engineer</p>
+      <button class= "hire-btn" onclick= "window.location.href='mailto: michael.lance.hickman@gmail.com';">Hire Me</button>
+      <button class= "down-cv" type="submit" onclick="window.open('downloads/Michael-Hickman-CV.docx')">Download CV</button>
+
+    </div>
+    <img src="images/model.png" class="model" alt="model">
+
+  </section>
+  <div id = "about-container">
+
+  <div class = "about-container">
+    <img src="images/about-img.png">
+    <div class = "about-text">
+      <p>About Me</p>
+      <p>Developer and Designer</p>
+      <p>I am a 23 year old Postgraduate student at the Universoty of Bristol. I am currently studying Wireless COmmunicationa nd Signla Porcessing. Graduated from Newcastle uinversity where I studied Electrical and Electronics Engineering </p>
+      <p>Everybody have different screen resolutions, you need to adjust the values of top, left, height, transform by yourself with respect to your display resolution.</p>
+      <button onclick= "window.location.href='mailto: michael.lance.hickman@gmail.com';"> Hire Me</button>
+      <button type="submit" onclick="window.open('downloads/Michael-Hickman-CV.docx')">Download CV</button>
+    </div>
+  </div>
+
+  </div>
+  <div id="education">
+  <div class="education">
+    <div class="education-text">
+      <p>Education</p>
+
+    </div>
+
+    <div class="box-container">
+      <div class="box-1">
+        <span>1</span>
+        <p class = "heading">Bristol University</p>
+        <p>Antennas<br>Advcanced Mobile Radio Techniques<br>Coding Theory<br>Digital Filters and Spectral Analysis<br>Digital Signal Processing Systems<br>Mobile Communications</p>
+      </div>
+      <div class="box-2">
+        <span>2</span>
+        <p class = "heading">Newcastle University</p>
+        <p>Antennas<br>Advcanced Mobile Radio Techniques<br>Coding Theory<br>Digital Filters and Spectral Analysis<br>Digital Signal Processing Systems<br>Mobile Communications</p>
+      </div>
+      <div class="box-3">
+        <span>3</span>
+        <p class = "heading">British School Al Khubairat</p>
+        <p>Maths<br>Physics<br>Chemistry<br><br><br><br><br></p>
+      </div>
+
+
+    </div>
+
+
+  </div>
+</div>
+
+
+<div id="contact-me">
+
+  <div class="contact-me">
+  <p>If you're interested, contact me via Email'.</p>
+  <button onclick= "window.location.href='mailto: michael.lance.hickman@gmail.com';">Contact Me</button>
+  </div>
+</div>
+
+  <footer>
+  <p>Follow me on social media</p>
+  <p>I'm an ordgaosed and driven person whos likes to program</p>
+
+    <div class="social-icons">
+
+      <a href="https://www.linkedin.com/in/m-l-h/"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/hichael.mickman/"><i class="fab fa-instagram"></i></a>
+
+
+
+    </div>
+
+
+  </footer>
+
+  <div class="a-social-b">
+    <a href="https://www.linkedin.com/in/m-l-h/"><i class="fab fa-linkedin"></i></a>
+    <a href="https://www.instagram.com/hichael.mickman/"><i class="fab fa-instagram"></i></a>
+
+
+
+  </div>
+
+<script type= "text/javascript" src="js/JQuery.js"></script>
+  <script type= "text/javascript">
+  $(document).ready(function(){
+    $('.toggle').click(function(){
+      $('.toggle').toggleClass('active')
+      $('nav').toggleClass('active')
+
+    })
+  })
+  </script>
+
+
+</body>
+</html>
